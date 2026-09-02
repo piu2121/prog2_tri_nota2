@@ -19,7 +19,8 @@ class GerenciadorTarefas {
 }
 GerenciadorTarefas.list()
 GerenciadorTarefas.add(1)
-GerenciadorTarefas.find(1)
-GerenciadorTarefas.update(1)
-GerenciadorTarefas.delete(1)
-GerenciadorTarefas.how(1)
+console.error('achado',GerenciadorTarefas.find(1))
+GerenciadorTarefas.update(2, 'aiaiai')
+GerenciadorTarefas.delete(0)
+console.error('tamanho',GerenciadorTarefas.how(1))
+GerenciadorTarefas.list()

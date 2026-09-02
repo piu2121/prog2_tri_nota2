@@ -3,7 +3,7 @@ const SomaReLista=(lista)=>{
     let b=lista.length-1
     let l=lista
     const bb=lista[b]
-    if(b>0){
+    if(b>1){
         l.splice(b,1)
         l[0]=(bb+a)
         return SomaReLista(l)
