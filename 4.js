@@ -10,7 +10,7 @@ const fatorialRecusrivo=(n)=>{
     let delimitador=n
     let resultado=1
     while(n!==0){
-        if(delimitador===0){
+        if(delimitador===1){
             return resultado
         }
         resultado=resultado*delimitador
