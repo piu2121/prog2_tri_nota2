@@ -9,7 +9,7 @@ int vetor_t_parada(char *string){
 };
 void manipularstring2(char *string){
     printf("\noi");
-    int t2=strlen(string)+1;
+    int t2=strlen(string);
     char temp[t2];
     strcpy(temp,string);
     printf("\n%s",temp);
